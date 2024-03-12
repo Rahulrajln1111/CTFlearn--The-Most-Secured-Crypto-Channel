@@ -8,3 +8,8 @@ with open("transmission1.txt","rb")  as file1,open("transmission2.txt","rb") as 
 		if chr(a) == '/' and chr(b) == 'x' or chr(a) == '-' and chr(b) == '+':
 			val+='0'
 print(val)
+
+#After getting binary value ,decode it with cyberChef to get flag
+#Flag{Qu4n7umCryp70gr4phyIs4Fu7ur3}
+
+
